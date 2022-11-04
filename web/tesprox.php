@@ -7,9 +7,9 @@ curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 curl_setopt($ch, CURLOPT_CUSTOMREQUEST, 'GET');
 curl_setopt($ch, CURLOPT_COOKIEJAR, $cookie);
 curl_setopt($ch, CURLOPT_COOKIEFILE, $cookie);
-curl_setopt($ch, CURLOPT_PROXY, "sea.socks.ipvanish.com:1080");
-curl_setopt($ch, CURLOPT_PROXYUSERPWD, "nM7tgpoXqjS:YgALpULwckZ");
-curl_setopt($ch, CURLOPT_PROXYTYPE, CURLPROXY_SOCKS5);
+curl_setopt($ch, CURLOPT_PROXY, "isp2.hydraproxy.com:9989");
+curl_setopt($ch, CURLOPT_PROXYUSERPWD, "eliza54495xfei129898:6yauDyN44h7SHGYX");
+curl_setopt($ch, CURLOPT_PROXYTYPE, CURLPROXY_HTTP);
 curl_setopt($ch, CURLOPT_HTTPPROXYTUNNEL , 1);
 curl_setopt($ch, CURLOPT_HTTPHEADER, [
     'authority' => 'login.yahoo.com',
